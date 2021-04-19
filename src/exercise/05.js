@@ -13,6 +13,16 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /* ✅ try adding a global style to all the h1 and p tags */
+  h1 {
+    font-family: "Arial", sans-serif;
+    color: green;
+  }
+  
+  p {
+    font-family: "Type Sans", sans-serif;
+    color: yellow;
+    background: black;
+  }
 `;
 
 export default function App() {
